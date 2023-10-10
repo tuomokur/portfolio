@@ -1,0 +1,11 @@
+.footer-container {
+     height: 5vh;
+     grid-area: footer;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     background-color: rgb(30, 41, 59);
+}
+.footer-text {
+     font-size: 0.8em;
+}

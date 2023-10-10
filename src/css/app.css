@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(15, 23, 42);
+  color: rgb(226, 232, 240);
+}
+.main-container {
+  scroll-behavior: smooth;
+  height: 100vh;
+  overflow-x: hidden;
+  display: grid; 
+  grid-template-columns: 1fr ; 
+  grid-template-rows: auto 1fr auto; 
+  grid-template-areas: 
+    "nav nav"
+    "content content"
+    "footer footer"; 
+}
+.container-bg {
+  background-color: rgb(30, 41, 59);
+}

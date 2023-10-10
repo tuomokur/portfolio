@@ -1,0 +1,14 @@
+.projectContainer {  
+    border-radius: 15px;
+    scroll-margin-top: 4.2rem;
+    height: 60vh;
+    margin-top: 1em;
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap: 1px 1px;
+    grid-auto-flow: row;
+    grid-template-areas:
+      "Projects projectShowCase"
+      "Projects projectShowCase"
+      "Projects projectShowCase";
+}

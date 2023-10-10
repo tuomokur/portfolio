@@ -1,0 +1,24 @@
+.container-about {
+    background-color: rgb(30, 41, 59);
+    display: flex;
+    padding: 1em;
+    margin-top: 4.2em;
+    scroll-margin-top: 4.2em;
+    border-radius: 15px;
+}
+.about-text-container {
+    margin: auto 1em;
+}
+.about-header {
+    font-size: 2em;
+}
+.about-text {
+    text-align: justify;
+    letter-spacing: 1px;
+}
+#mypicture {
+    max-width: 200px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+}
