@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     max-width: 40%;
-    /* border: 1px solid rgba(70, 70, 70, 0.786); */
 }
 
 /* Media queries */

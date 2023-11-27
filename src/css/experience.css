@@ -1,11 +1,11 @@
 .experienceContainer {
-    scroll-margin-top: 4.2rem;
-    height: 70vh;
+    min-height: 60vh;
+    scroll-margin-top: 4.2em;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2em 0;
+    margin: 3em 0;
 }
 .experienceTitle {
     font-size: 1.2em;

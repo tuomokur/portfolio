@@ -6,7 +6,6 @@
     border-bottom-left-radius: 15px;
 }
 .project {
-    border-bottom: 1px solid rgba(100, 100, 100, 0.677);
     display: flex;
     justify-content: center;
 }
@@ -16,6 +15,9 @@
 .project:hover {
     cursor: pointer;
     background-color: rgba(165, 171, 178, 0.301);
+    color: rgb(56, 189, 248);
+    transition: color 0.4s ease;
+    transition: background 0.4s ease;
 } 
 .projectShowCase { 
     grid-area: projectShowCase;
@@ -77,8 +79,15 @@
     text-align: center;
 }
 .projecStack {
+    margin: 0;
+    padding: 10px;
     text-align: center;
     font-size: 13px;
+    list-style-type: none;
+}
+li {
+    display: inline;
+    margin: 5px;
 }
 #projectPlaceholder{
     text-align: center;
